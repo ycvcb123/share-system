@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "mod-share-message": "../../components/mod-share-message/index",
+        "mod-share-timeline": "../../components/mod-share-timeline/index"
+    },
+    "disableScroll": true
+}

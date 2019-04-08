@@ -1,0 +1,22 @@
+.share-button-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 128rpx;
+    background: #fff;
+    display: flex;
+}
+
+.flex-l {
+    flex: 1;
+}
+
+.flex-r {
+    flex: 1;
+}
+
+.flex-l image,
+.flex-r image {
+    width: 128rpx;
+    height: 128rpx;
+}

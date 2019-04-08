@@ -1,0 +1,6 @@
+<view wx:if="{{timelineShow}}" class="container">
+    <canvas canvas-id="myCanvas"  class="canvas"/>
+    <image class="share-pic" src="{{sharePicPath}}"></image>
+    <view class="btn-save" bindtap="authorSave">保存图片</view>
+</view>
+

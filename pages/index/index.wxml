@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <mod-share-message messageShow="{{messageShow}}" shareMessageInfo="{{shareMessageInfoMessage}}" bindsharePic="getSharePicPath"/>
+    <mod-share-timeline timelineShow="{{timelineShow}}" picContent="{{shareMessageInfoTimeline}}" bindcloseTimelineShow="closeTimelineShow"/>
+</view>
+
+<view class="share-button-container">
+    <button class="flex-l"  open-type='share'>
+        <image src="../../common/images/weixin.png"/>    
+    </button>
+    <button class="flex-r" bindtap="shareTimeLine">
+         <image src="../../common/images/showTLine.png"/> 
+    </button>
+</view>
